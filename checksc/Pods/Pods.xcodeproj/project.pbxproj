@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176C2AD019C4DC436023226C39636414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1BC6502745A5C76D1A0D09B79570DCBB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E611E8C1AB26D078C9AE6A863C44FE1 /* Service.swift */; };
+		290EBA12990F58A4067ACAF64DB96B65 /* CameraFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B84557B34F4CBFF4FD9A4AE9A332E1FF /* CameraFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C84C129CDB369651F4EF5A44C922A15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4718D07D0EFDF3CF5AE59B31BF5C9D35 /* Pods-checksc-checkscUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 635DFCBC45D9373003316F2DE35CD646 /* Pods-checksc-checkscUITests-dummy.m */; };
+		532717BFEFFF3410AC140E8EB10E2DC5 /* Pods-checksc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 126ADD6E342A54E89AA98054732FF60B /* Pods-checksc-dummy.m */; };
+		5AA367EBB9D8B3C51711D6081B528274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A6A5C7104BA8FA13A43BF63CAB9F1067 /* Pods-checksc-checkscUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27AC7F826DC9D8A7BD978AFE6A108BFE /* Pods-checksc-checkscUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF44C4BB4387918CA1FEE88C3F16D436 /* Pods-checkscTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFB88FB5C88964E31D8E97ACF85212 /* Pods-checkscTests-dummy.m */; };
+		C1AB188D307CDB408721755A8C9237E7 /* CameraFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FCCBD90DCB47CC7C0268AF5DB4A46E /* CameraFramework-dummy.m */; };
+		DAFC5F27ABB1F94D68D363DC93DBFEAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E303B109FC8EFA4303425881A97ED129 /* Pods-checksc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B580726E5CC29955D18EDB3A0652E3B5 /* Pods-checksc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F169222D458EA0704000E4C19B42A1F6 /* Pods-checkscTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38255FE77389B8F88D147454B7FB7724 /* Pods-checkscTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4352FD1EE5062B964182C0D7122C4338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A7F4813200B3F46F537837E6BF2CEB5;
+			remoteInfo = CameraFramework;
+		};
+		EC32B33B7E871F559D9A0D804A6B9025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A28907FCD1C224BADBACD50AA3E377;
+			remoteInfo = "Pods-checksc";
+		};
+		FB705E197167016C5CE160CBF6D959E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A7F4813200B3F46F537837E6BF2CEB5;
+			remoteInfo = CameraFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03378371C6A786E8934860A944A4F173 /* Pods-checkscTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-checkscTests-Info.plist"; sourceTree = "<group>"; };
+		03A08C874C4544392CB51D7A8A1D080F /* Pods-checkscTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-checkscTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04A6A92116C3FED50B4EBD48F4B37C21 /* Pods-checksc-checkscUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-checksc-checkscUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		109C2EC24CEF40881D145CC2AFD57DA5 /* Pods-checksc-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-checksc-frameworks.sh"; sourceTree = "<group>"; };
+		126ADD6E342A54E89AA98054732FF60B /* Pods-checksc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-checksc-dummy.m"; sourceTree = "<group>"; };
+		27AC7F826DC9D8A7BD978AFE6A108BFE /* Pods-checksc-checkscUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-checksc-checkscUITests-umbrella.h"; sourceTree = "<group>"; };
+		28B1C3E1C7462928B6E37F493EFAF15E /* Pods-checksc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-checksc.release.xcconfig"; sourceTree = "<group>"; };
+		381634BFB01CE0BAD06D1D92EA5479DA /* Pods-checkscTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-checkscTests.modulemap"; sourceTree = "<group>"; };
+		38255FE77389B8F88D147454B7FB7724 /* Pods-checkscTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-checkscTests-umbrella.h"; sourceTree = "<group>"; };
+		4373C6E1760F487F76739466D5E48DCD /* Pods-checksc-checkscUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-checksc-checkscUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		548DCBA4A36B4BFE9903C97D8D732643 /* Pods-checksc-checkscUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-checksc-checkscUITests"; path = Pods_checksc_checkscUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		592AD5E4C51ABF46D5C2920EB2F42D27 /* CameraFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CameraFramework; path = CameraFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACFB88FB5C88964E31D8E97ACF85212 /* Pods-checkscTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-checkscTests-dummy.m"; sourceTree = "<group>"; };
+		5E693AD97E4B6DC119848B83EB254940 /* CameraFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraFramework.release.xcconfig; sourceTree = "<group>"; };
+		635DFCBC45D9373003316F2DE35CD646 /* Pods-checksc-checkscUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-checksc-checkscUITests-dummy.m"; sourceTree = "<group>"; };
+		72FFDDDFB1310DA26341089DF4DCF95B /* Pods-checksc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-checksc-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73227A69977B1FE473BFAB4A271E1D52 /* CameraFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CameraFramework.modulemap; sourceTree = "<group>"; };
+		7ABE47F3CC1E2E451C6B1C5999B3052B /* Pods-checksc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-checksc-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B417E4C60C87A7DEE9EA61E48A3FDEC /* Pods-checksc-checkscUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-checksc-checkscUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C6BB5CEC9A686DA167B7B754875B900 /* Pods-checksc-checkscUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-checksc-checkscUITests.modulemap"; sourceTree = "<group>"; };
+		7E611E8C1AB26D078C9AE6A863C44FE1 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = CameraFramework/Service.swift; sourceTree = "<group>"; };
+		8367B32BC8018DC65A3862468E9CECCE /* CameraFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CameraFramework-Info.plist"; sourceTree = "<group>"; };
+		90D6921BFFE0B376A5C9FD3C4822225E /* Pods-checkscTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-checkscTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		96D2D1E605965DA8977B89341DB90048 /* Pods-checkscTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-checkscTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A49DDA7C5B65FB2D2F5F6F288BBF84D6 /* CameraFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraFramework-prefix.pch"; sourceTree = "<group>"; };
+		B580726E5CC29955D18EDB3A0652E3B5 /* Pods-checksc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-checksc-umbrella.h"; sourceTree = "<group>"; };
+		B84557B34F4CBFF4FD9A4AE9A332E1FF /* CameraFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraFramework-umbrella.h"; sourceTree = "<group>"; };
+		B8F00C442CE3F8C8C7C0DA2589C81BF4 /* Pods-checksc-checkscUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-checksc-checkscUITests-Info.plist"; sourceTree = "<group>"; };
+		C8E59E6A52D41B293D6ACDEC96B779CB /* Pods-checksc-checkscUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-checksc-checkscUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF965B7CEB44195F2079641B99FB96A2 /* Pods-checksc-checkscUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-checksc-checkscUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CFDC832DF9114C656721C41B1681CF48 /* Pods-checkscTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-checkscTests"; path = Pods_checkscTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FB9238D5B59CDD7CD8E2C069965F54 /* Pods-checkscTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-checkscTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC5950CEDE7C6FF73FD837891700078F /* CameraFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraFramework.debug.xcconfig; sourceTree = "<group>"; };
+		E10EFA8854FC6FD90E90A8FDA1139FE0 /* Pods-checksc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-checksc.debug.xcconfig"; sourceTree = "<group>"; };
+		E368F9C21A3CD0E3E0159CCF2A8F93F8 /* Pods-checksc */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-checksc"; path = Pods_checksc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18B651E712FBAE0E9A9369E1E370E34 /* Pods-checksc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-checksc-Info.plist"; sourceTree = "<group>"; };
+		F3FCCBD90DCB47CC7C0268AF5DB4A46E /* CameraFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CameraFramework-dummy.m"; sourceTree = "<group>"; };
+		FA6F21B64551701C85B66CF7A465BBE3 /* Pods-checksc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-checksc.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7249D97D3E0F2A28EB0FA9345F287C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C84C129CDB369651F4EF5A44C922A15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880603B47DD23EA8AAB3A44AF566BED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFC5F27ABB1F94D68D363DC93DBFEAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961FED1272A1CDAA42A575B5CF07414D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA367EBB9D8B3C51711D6081B528274 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48652134C9930D8E0E6D70550BF2CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176C2AD019C4DC436023226C39636414 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC18D5F48147EC7492D53089FA7EDE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18EE66E2B7C39EEC972B15106E6E49B7 /* CameraFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		18EE66E2B7C39EEC972B15106E6E49B7 /* CameraFramework */ = {
+			isa = PBXGroup;
+			children = (
+				7E611E8C1AB26D078C9AE6A863C44FE1 /* Service.swift */,
+				5E8E4417E48EA58AEEAC246FC30DD176 /* Support Files */,
+			);
+			name = CameraFramework;
+			path = CameraFramework;
+			sourceTree = "<group>";
+		};
+		2E18F49EE1F5A226EDEAF78A7305A78E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				592AD5E4C51ABF46D5C2920EB2F42D27 /* CameraFramework */,
+				E368F9C21A3CD0E3E0159CCF2A8F93F8 /* Pods-checksc */,
+				548DCBA4A36B4BFE9903C97D8D732643 /* Pods-checksc-checkscUITests */,
+				CFDC832DF9114C656721C41B1681CF48 /* Pods-checkscTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E8E4417E48EA58AEEAC246FC30DD176 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73227A69977B1FE473BFAB4A271E1D52 /* CameraFramework.modulemap */,
+				F3FCCBD90DCB47CC7C0268AF5DB4A46E /* CameraFramework-dummy.m */,
+				8367B32BC8018DC65A3862468E9CECCE /* CameraFramework-Info.plist */,
+				A49DDA7C5B65FB2D2F5F6F288BBF84D6 /* CameraFramework-prefix.pch */,
+				B84557B34F4CBFF4FD9A4AE9A332E1FF /* CameraFramework-umbrella.h */,
+				DC5950CEDE7C6FF73FD837891700078F /* CameraFramework.debug.xcconfig */,
+				5E693AD97E4B6DC119848B83EB254940 /* CameraFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CameraFramework";
+			sourceTree = "<group>";
+		};
+		9481CBB729CF7F85055A11617DF03229 /* Pods-checksc-checkscUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C6BB5CEC9A686DA167B7B754875B900 /* Pods-checksc-checkscUITests.modulemap */,
+				C8E59E6A52D41B293D6ACDEC96B779CB /* Pods-checksc-checkscUITests-acknowledgements.markdown */,
+				04A6A92116C3FED50B4EBD48F4B37C21 /* Pods-checksc-checkscUITests-acknowledgements.plist */,
+				635DFCBC45D9373003316F2DE35CD646 /* Pods-checksc-checkscUITests-dummy.m */,
+				CF965B7CEB44195F2079641B99FB96A2 /* Pods-checksc-checkscUITests-frameworks.sh */,
+				B8F00C442CE3F8C8C7C0DA2589C81BF4 /* Pods-checksc-checkscUITests-Info.plist */,
+				27AC7F826DC9D8A7BD978AFE6A108BFE /* Pods-checksc-checkscUITests-umbrella.h */,
+				4373C6E1760F487F76739466D5E48DCD /* Pods-checksc-checkscUITests.debug.xcconfig */,
+				7B417E4C60C87A7DEE9EA61E48A3FDEC /* Pods-checksc-checkscUITests.release.xcconfig */,
+			);
+			name = "Pods-checksc-checkscUITests";
+			path = "Target Support Files/Pods-checksc-checkscUITests";
+			sourceTree = "<group>";
+		};
+		C703F8B11D1C141115FDD46D0C2E8896 /* Pods-checkscTests */ = {
+			isa = PBXGroup;
+			children = (
+				381634BFB01CE0BAD06D1D92EA5479DA /* Pods-checkscTests.modulemap */,
+				03A08C874C4544392CB51D7A8A1D080F /* Pods-checkscTests-acknowledgements.markdown */,
+				90D6921BFFE0B376A5C9FD3C4822225E /* Pods-checkscTests-acknowledgements.plist */,
+				5ACFB88FB5C88964E31D8E97ACF85212 /* Pods-checkscTests-dummy.m */,
+				03378371C6A786E8934860A944A4F173 /* Pods-checkscTests-Info.plist */,
+				38255FE77389B8F88D147454B7FB7724 /* Pods-checkscTests-umbrella.h */,
+				96D2D1E605965DA8977B89341DB90048 /* Pods-checkscTests.debug.xcconfig */,
+				D9FB9238D5B59CDD7CD8E2C069965F54 /* Pods-checkscTests.release.xcconfig */,
+			);
+			name = "Pods-checkscTests";
+			path = "Target Support Files/Pods-checkscTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0DC18D5F48147EC7492D53089FA7EDE7 /* Pods */,
+				2E18F49EE1F5A226EDEAF78A7305A78E /* Products */,
+				EDBE778D7BBEC8108B32414F192886E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDBE778D7BBEC8108B32414F192886E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC2FD9F112389AE7F2D3499DB42E12BC /* Pods-checksc */,
+				9481CBB729CF7F85055A11617DF03229 /* Pods-checksc-checkscUITests */,
+				C703F8B11D1C141115FDD46D0C2E8896 /* Pods-checkscTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FC2FD9F112389AE7F2D3499DB42E12BC /* Pods-checksc */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F21B64551701C85B66CF7A465BBE3 /* Pods-checksc.modulemap */,
+				7ABE47F3CC1E2E451C6B1C5999B3052B /* Pods-checksc-acknowledgements.markdown */,
+				72FFDDDFB1310DA26341089DF4DCF95B /* Pods-checksc-acknowledgements.plist */,
+				126ADD6E342A54E89AA98054732FF60B /* Pods-checksc-dummy.m */,
+				109C2EC24CEF40881D145CC2AFD57DA5 /* Pods-checksc-frameworks.sh */,
+				F18B651E712FBAE0E9A9369E1E370E34 /* Pods-checksc-Info.plist */,
+				B580726E5CC29955D18EDB3A0652E3B5 /* Pods-checksc-umbrella.h */,
+				E10EFA8854FC6FD90E90A8FDA1139FE0 /* Pods-checksc.debug.xcconfig */,
+				28B1C3E1C7462928B6E37F493EFAF15E /* Pods-checksc.release.xcconfig */,
+			);
+			name = "Pods-checksc";
+			path = "Target Support Files/Pods-checksc";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56A79F409E71F7D5A1671FD5D9AE473F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E303B109FC8EFA4303425881A97ED129 /* Pods-checksc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968CB2D1C4469F154F29781765A43C38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290EBA12990F58A4067ACAF64DB96B65 /* CameraFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF506C03678DCDDDD8EFE48DA31E674B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F169222D458EA0704000E4C19B42A1F6 /* Pods-checkscTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C199C70C14ADB62E930F8EEF0E1CD1AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A5C7104BA8FA13A43BF63CAB9F1067 /* Pods-checksc-checkscUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A7F4813200B3F46F537837E6BF2CEB5 /* CameraFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98216D6935C6590C769A0FE41A1A2D6E /* Build configuration list for PBXNativeTarget "CameraFramework" */;
+			buildPhases = (
+				968CB2D1C4469F154F29781765A43C38 /* Headers */,
+				72D405F4D1831375E5EE9021A7821BFC /* Sources */,
+				880603B47DD23EA8AAB3A44AF566BED8 /* Frameworks */,
+				7A99D74BB9C52EEB1C77012740F263DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraFramework;
+			productName = CameraFramework;
+			productReference = 592AD5E4C51ABF46D5C2920EB2F42D27 /* CameraFramework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CABD910AAD922FF5F9D495E4433B9E72 /* Pods-checkscTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1E06B6D6339668FA33197BC58E94D3 /* Build configuration list for PBXNativeTarget "Pods-checkscTests" */;
+			buildPhases = (
+				BF506C03678DCDDDD8EFE48DA31E674B /* Headers */,
+				CED646488C5031D1E4A6B99A981882DB /* Sources */,
+				E48652134C9930D8E0E6D70550BF2CF8 /* Frameworks */,
+				0ABABFCD02FD66867AB44F1DDB2842B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1039CB7E2B075035B77C0D908096F469 /* PBXTargetDependency */,
+			);
+			name = "Pods-checkscTests";
+			productName = Pods_checkscTests;
+			productReference = CFDC832DF9114C656721C41B1681CF48 /* Pods-checkscTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4A28907FCD1C224BADBACD50AA3E377 /* Pods-checksc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ADF97E922F937FE51C9A8D18E1B913C /* Build configuration list for PBXNativeTarget "Pods-checksc" */;
+			buildPhases = (
+				56A79F409E71F7D5A1671FD5D9AE473F /* Headers */,
+				3384C41662D465C4ABC21D35E86770F5 /* Sources */,
+				961FED1272A1CDAA42A575B5CF07414D /* Frameworks */,
+				068ED26E5DA75422040881E41E59BEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19A5713307BF29C9BE307FF5CBD332A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-checksc";
+			productName = Pods_checksc;
+			productReference = E368F9C21A3CD0E3E0159CCF2A8F93F8 /* Pods-checksc */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF6B1E8F2A0C6EF6FCD0DCEFFE0CF9C2 /* Pods-checksc-checkscUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73881E91D8149C7808908C7AD9F32F2 /* Build configuration list for PBXNativeTarget "Pods-checksc-checkscUITests" */;
+			buildPhases = (
+				C199C70C14ADB62E930F8EEF0E1CD1AA /* Headers */,
+				F1FC8706AC3A65B8DD520797D7BD6AD1 /* Sources */,
+				7249D97D3E0F2A28EB0FA9345F287C4A /* Frameworks */,
+				35E03303DA460C9A0407FFDB81551781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293FF6E4048EB9ED71CB71051117C2FB /* PBXTargetDependency */,
+			);
+			name = "Pods-checksc-checkscUITests";
+			productName = Pods_checksc_checkscUITests;
+			productReference = 548DCBA4A36B4BFE9903C97D8D732643 /* Pods-checksc-checkscUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2E18F49EE1F5A226EDEAF78A7305A78E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A7F4813200B3F46F537837E6BF2CEB5 /* CameraFramework */,
+				D4A28907FCD1C224BADBACD50AA3E377 /* Pods-checksc */,
+				EF6B1E8F2A0C6EF6FCD0DCEFFE0CF9C2 /* Pods-checksc-checkscUITests */,
+				CABD910AAD922FF5F9D495E4433B9E72 /* Pods-checkscTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068ED26E5DA75422040881E41E59BEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ABABFCD02FD66867AB44F1DDB2842B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E03303DA460C9A0407FFDB81551781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A99D74BB9C52EEB1C77012740F263DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3384C41662D465C4ABC21D35E86770F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532717BFEFFF3410AC140E8EB10E2DC5 /* Pods-checksc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D405F4D1831375E5EE9021A7821BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AB188D307CDB408721755A8C9237E7 /* CameraFramework-dummy.m in Sources */,
+				1BC6502745A5C76D1A0D09B79570DCBB /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED646488C5031D1E4A6B99A981882DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF44C4BB4387918CA1FEE88C3F16D436 /* Pods-checkscTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FC8706AC3A65B8DD520797D7BD6AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4718D07D0EFDF3CF5AE59B31BF5C9D35 /* Pods-checksc-checkscUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1039CB7E2B075035B77C0D908096F469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-checksc";
+			target = D4A28907FCD1C224BADBACD50AA3E377 /* Pods-checksc */;
+			targetProxy = EC32B33B7E871F559D9A0D804A6B9025 /* PBXContainerItemProxy */;
+		};
+		19A5713307BF29C9BE307FF5CBD332A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CameraFramework;
+			target = 3A7F4813200B3F46F537837E6BF2CEB5 /* CameraFramework */;
+			targetProxy = 4352FD1EE5062B964182C0D7122C4338 /* PBXContainerItemProxy */;
+		};
+		293FF6E4048EB9ED71CB71051117C2FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CameraFramework;
+			target = 3A7F4813200B3F46F537837E6BF2CEB5 /* CameraFramework */;
+			targetProxy = FB705E197167016C5CE160CBF6D959E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2088C76E5B7125AE90D2220ECC3DEA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B417E4C60C87A7DEE9EA61E48A3FDEC /* Pods-checksc-checkscUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-checksc-checkscUITests/Pods-checksc-checkscUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-checksc-checkscUITests/Pods-checksc-checkscUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AD244C0CE971CA0EA09682DAE2F43F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FB9238D5B59CDD7CD8E2C069965F54 /* Pods-checkscTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-checkscTests/Pods-checkscTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-checkscTests/Pods-checkscTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7FC47CF244A0AA7705D849BC0BC744F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4373C6E1760F487F76739466D5E48DCD /* Pods-checksc-checkscUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-checksc-checkscUITests/Pods-checksc-checkscUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-checksc-checkscUITests/Pods-checksc-checkscUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87E2EA2F64932D2C1F04BFDBBC5BA1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5950CEDE7C6FF73FD837891700078F /* CameraFramework.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CameraFramework/CameraFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CameraFramework/CameraFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CameraFramework/CameraFramework.modulemap";
+				PRODUCT_MODULE_NAME = CameraFramework;
+				PRODUCT_NAME = CameraFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B2B32079EF6E65117B06E2C708C3199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B1C3E1C7462928B6E37F493EFAF15E /* Pods-checksc.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-checksc/Pods-checksc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-checksc/Pods-checksc.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCB8C97805EC59C005A560788F37A737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D2D1E605965DA8977B89341DB90048 /* Pods-checkscTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-checkscTests/Pods-checkscTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-checkscTests/Pods-checkscTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1E70071FA3C7352CD9954E2FA0BAABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10EFA8854FC6FD90E90A8FDA1139FE0 /* Pods-checksc.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-checksc/Pods-checksc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-checksc/Pods-checksc.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F91C6489EB54492EE6059178C6187900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E693AD97E4B6DC119848B83EB254940 /* CameraFramework.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CameraFramework/CameraFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CameraFramework/CameraFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CameraFramework/CameraFramework.modulemap";
+				PRODUCT_MODULE_NAME = CameraFramework;
+				PRODUCT_NAME = CameraFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ADF97E922F937FE51C9A8D18E1B913C /* Build configuration list for PBXNativeTarget "Pods-checksc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E70071FA3C7352CD9954E2FA0BAABB /* Debug */,
+				8B2B32079EF6E65117B06E2C708C3199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
+				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1E06B6D6339668FA33197BC58E94D3 /* Build configuration list for PBXNativeTarget "Pods-checkscTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB8C97805EC59C005A560788F37A737 /* Debug */,
+				3AD244C0CE971CA0EA09682DAE2F43F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98216D6935C6590C769A0FE41A1A2D6E /* Build configuration list for PBXNativeTarget "CameraFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E2EA2F64932D2C1F04BFDBBC5BA1CE /* Debug */,
+				F91C6489EB54492EE6059178C6187900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73881E91D8149C7808908C7AD9F32F2 /* Build configuration list for PBXNativeTarget "Pods-checksc-checkscUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC47CF244A0AA7705D849BC0BC744F8 /* Debug */,
+				2088C76E5B7125AE90D2220ECC3DEA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

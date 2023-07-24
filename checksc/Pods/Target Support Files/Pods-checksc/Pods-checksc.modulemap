@@ -1,0 +1,6 @@
+framework module Pods_checksc {
+  umbrella header "Pods-checksc-umbrella.h"
+
+  export *
+  module * { export * }
+}

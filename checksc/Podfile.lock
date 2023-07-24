@@ -1,0 +1,16 @@
+PODS:
+  - CameraFramework (1.0.0)
+
+DEPENDENCIES:
+  - CameraFramework
+
+SPEC REPOS:
+  trunk:
+    - CameraFramework
+
+SPEC CHECKSUMS:
+  CameraFramework: 858ae8a17c734fdc062b579545d21d003e29d738
+
+PODFILE CHECKSUM: 9b25c700b820d8168cffd944cbbf1473815f6cda
+
+COCOAPODS: 1.12.1
