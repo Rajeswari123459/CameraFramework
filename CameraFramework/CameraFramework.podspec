@@ -1,7 +1,7 @@
   Pod::Spec.new do |spec|
 
   spec.name         = "CameraFramework"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "Added This Camera Functions."
   spec.description  = "This is one of the camera functions framework."
   spec.homepage     = "https://github.com/Rajeswari123459/CameraFramework"
