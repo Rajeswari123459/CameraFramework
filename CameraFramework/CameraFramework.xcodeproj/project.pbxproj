@@ -357,10 +357,6 @@
 		CDD599EE2A6832D300B592BB = {
 			isa = PBXGroup;
 			children = (
-				CDD59A022A6832F200B592BB /* Service.swift */,
-				CD3CD19D2A6A43F100F19D22 /* Math */,
-				CD3CD1412A6A43F000F19D22 /* Scanner */,
-				CD3CD1462A6A43F100F19D22 /* ViewController */,
 				CDD599FA2A6832D300B592BB /* CameraFramework */,
 				CDD599F92A6832D300B592BB /* Products */,
 			);
@@ -377,6 +373,10 @@
 		CDD599FA2A6832D300B592BB /* CameraFramework */ = {
 			isa = PBXGroup;
 			children = (
+				CDD59A022A6832F200B592BB /* Service.swift */,
+				CD3CD19D2A6A43F100F19D22 /* Math */,
+				CD3CD1412A6A43F000F19D22 /* Scanner */,
+				CD3CD1462A6A43F100F19D22 /* ViewController */,
 				CDD599FB2A6832D300B592BB /* CameraFramework.h */,
 			);
 			path = CameraFramework;
